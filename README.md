@@ -2,7 +2,9 @@
 
 1 git clone 
 ```bash
-git clone 
+git clone https://github.com/Sardor7613/Django-auth.git
+```
+
 ### Install Requirements
 ```bash
 # with venv activated
