@@ -1,68 +1,16 @@
-# SaaS Foundations
+# SaaS Foundation
 
-Build the foundations for a Software as a Service business by leveraging Django, Tailwind, htmx, Neon Postgres, Redis, and more.
-
-The goal of this project is to learn how to create a reusable foundation for building SaaS products. When release, this course will span multiple topics and give you a solid foundation into build your business.
-
-
-## References
-
-- Deploy Django on [Railway](https://kirr.co/qysgeu) with [this Dockerfile and guide](https://www.codingforentrepreneurs.com/blog/deploy-django-on-railway-with-this-dockerfile/)
-- Create a One-Off Secret Key for Django [blog post](https://www.codingforentrepreneurs.com/blog/create-a-one-off-django-secret-key/)
-
-
-Thank you to [Neon](https://kirr.co/eu0b31) for helping bring this course to life!
-
-
-## Getting Started
-
-### Clone
+1 git clone 
 ```bash
-mkdir -p ~/dev/saas
-cd ~/dev/saas
-git clone https://github.com/codingforentrepreneurs/SaaS-Foundations .
-```
-
-### Create Virtual Environment
-
-*macOS/Linux*
-```bash
-python3 --version # should be 3.11 or higher
-python3 -m venv venv
-source venv/bin/activate
-```
-
-*Windows*
-```bash
-c:\Python312\python.exe -m venv venv
-.\venv\Scripts\activate
-```
-
+git clone 
 ### Install Requirements
 ```bash
 # with venv activated
-pip install pip --upgrade && pip install -r requirements.txt
+pip install pip --upgrade
 ```
-
-### Sample dotenv to dotnev
-
 ```bash
-cp .env.sample .env
-cat .env
+pip install -r requirements.txt
 ```
-Values include:
-- `DJANGO_DEBUG=1`
-- `DJANGO_SECRET_KEY=""`
-- `DATABASE_URL=""`
-- `EMAIL_HOST="smtp.gmail.com"`
-- `EMAIL_PORT="587"`
-- `EMAIL_USE_TLS=True`
-- `EMAIL_USE_SSL=False`
-- `EMAIL_HOST_USER=""`
-- `EMAIL_HOST_PASSWORD=""`
-- `ADMIN_USER_EMAIL=""`
-- `STRIPE_SECRET_KEY=""`
-
 
 ### Create the _DJANGO_SECRET_KEY_
 
